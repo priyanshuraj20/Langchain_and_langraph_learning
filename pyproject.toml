@@ -7,7 +7,15 @@ authors = [
     { name = "priyanshu raj", email = "priyanshuraj2011005@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "langchain>=1.5.0",
+    "langchain-community>=0.4.2",
+    "langchain-core>=1.8.1",
+    "langchain-openai>=1.8.0",
+    "load-dotenv>=0.1.0",
+    "python-dotenv>=1.2.4",
+    "sqlalchemy>=2.1.9",
+]
 
 [project.scripts]
 langgraph-learning = "langgraph_learning:main"
